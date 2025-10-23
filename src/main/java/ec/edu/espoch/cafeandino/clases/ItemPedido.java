@@ -24,9 +24,11 @@ public class ItemPedido
     
     public boolean agregarExtra(String nombre)
     {
+        //le decimos que recorra el vector 
         boolean respuesta = false;
         for (int i = 0; i < extra.length; i++) 
         {
+            //verificamos que este vacio
             if (extra[i] != null) 
             {
                 extra[i] = nombre;
