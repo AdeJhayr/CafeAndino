@@ -18,5 +18,38 @@ public class Pedido
         this.estadoPedido = estadoPedido;
     }
     
+    public boolean agregarObservacion(String observacion)
+    {
+        return true;
+    }
     
+    public boolean cambiarEstado(EstadoPedido estado)
+    {
+        return true;
+    }
+    
+    public boolean cancelarPedido(String motivo)
+    {
+        return true;
+    }
+    
+    public double calcularDescuento(double porcentaje)
+    {
+        return 0;
+    }
+    
+    public double calcularTotal()
+    {
+        return 0;
+    }
+    
+    public boolean agregarItems(ItemPedido item)
+    {
+        return true;
+    }
+    
+    public boolean eliminarItems(ItemPedido item)
+    {
+        return true;
+    }
 }
